@@ -1,0 +1,7 @@
+train: /root/yolov5/data/minecraft_original/train/images
+val: /root/yolov5/data/minecraft_original/test/images
+test: /root/yolov5/data/minecraft_original/test/images
+
+
+nc: 7
+names: ['cow', 'duck', 'flower', 'people', 'pig', 'rabbit', 'sheep']

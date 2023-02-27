@@ -1,0 +1,15 @@
+from enum import Enum
+IMG_WIDTH = 640
+IMG_HEIGHT = 360
+LOCAL_DEDUG = False
+class STATE(Enum):
+    VPT_WALKING = 0
+    FIND_CAVE_AND_ROTATE = 1
+    DETECT_CAVE_TWITCH = 2
+    GO_TO_CAVE = 3
+    REACH_CAVE = 4
+
+
+class ACTION(Enum):
+    ROTATE = 0
+    GO_FORWARD_AND_JUMP = 1

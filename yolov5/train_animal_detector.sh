@@ -1,0 +1,1 @@
+python ./yolov5/train.py --img 640 --batch 16 --epochs 200 --data ./yolov5/data/animalpen_data/data.yaml --weights ./train/yolov5s.pt
